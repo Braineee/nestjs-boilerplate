@@ -6,7 +6,7 @@ import 'reflect-metadata';
 import { config as dotenvConfig } from 'dotenv';
 
 // DO NOT CHANGE THE SNAKE NAMING STRATEGY IMPORT TO AN ALIAS
-import { SnakeNamingStrategy } from '@shared/models/snake-case-naming.strategy';
+import { SnakeNamingStrategy } from '@shared/repository/snake-case-naming.strategy';
 
 // We don't have access to the @nestjs/config module when running the
 // migrations, so we need to load the environment variables manually.
