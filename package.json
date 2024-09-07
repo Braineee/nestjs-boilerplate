@@ -80,15 +80,10 @@
     "testEnvironment": "node"
   },
   "lint-staged": {
-    "*/**.{ts,tsx}": [
+    "*.{ts,tsx}": [
       "eslint --fix",
       "prettier --write",
       "npm format"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }
